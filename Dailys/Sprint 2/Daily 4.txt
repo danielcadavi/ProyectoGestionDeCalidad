@@ -1,0 +1,8 @@
+Daily 4 - Sprint #2
+
+Que se ha hecho ?
+Se desarrollo la zona de agregar productos por parte del admin
+¿ Que problemas tuvimos ?
+Hasta el momento no hemos tenido problema alguno hasta este daily
+¿ Que haremos para el siguiente daily del sprint 3?
+Se programará la zona de agregar los locales por parte del admin

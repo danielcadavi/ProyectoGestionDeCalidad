@@ -1,0 +1,5 @@
+De acuerdo a lo pactado con el equipo y el PO, se desarrollo la reunión de finalización de sprint, las cuales nos deja las siguientes conclusiones:
+
+- Se asignaron las tareas respectivas y de acuerdo con las habilidades y roles de los integrantes del equipo
+- No se presentaron problemas en las tareas de programación
+- Ha quedado listo el login, el registro, y la pestaña en la sección del admin para agregar productos

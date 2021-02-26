@@ -1,0 +1,8 @@
+Durante el transcurso de la reunión se acordó que para este sprint se incluirán tareas de programación de la pagina web 
+Estas son las tareas pactadas según los roles y desempeño de los integrantes del equipo
+
+La siguientes tareas tienen implícitamente manejo de consultas en BD
+- Creación de las ofertas que se le mostraran al cliente
+- Listar los productos, contempla la sección del admin en la que agrega los productos primero antes de ser mostrados al cliente
+- Agregar locales, contempla en la sección del admin el cual deber agregar los locales
+- Modificar productos, esto contempla la parte del usuario  y el admin
