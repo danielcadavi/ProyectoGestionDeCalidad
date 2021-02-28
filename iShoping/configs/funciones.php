@@ -72,11 +72,47 @@ function check_user($url){
 }
 
 //Nombre del cliente
+function nombre_cliente($id_cliente){
+	$mysqli = connect();
 
+	$q = $mysqli->query("SELECT * FROM clientes WHERE id = '$id_cliente'");
+	$r = mysqli_fetch_array($q);
+	return $r['name'];
+}
 //Sacar fecha
+function fecha($fecha){
+	$e = explode("-",$fecha);
 
+	$year = $e[0];
+	$month = $e[1];
+	$e2 = explode(" ",$e[2]);
+	$day = $e2[0];
+	$time = $e2[1];
+
+	$e3 = explode(":",$time);
+	$hour = $e3[0];
+	$mins = $e3[1];
+
+	return $day."/".$month."/".$year." ".$hour.":".$mins;
+
+}
 //Sacar estado del pedido
+function estado($id_estado){
+		if($id_estado == 0){
+			$status = "Iniciando";
+		}elseif($id_estado==1){
+			$status = "Preparando";
+		}elseif($id_estado == 2){
+			$status = "Despachando";
+		}elseif($id_estado == 3){
+			$status = "Finalizado";
+		}else{
+			$status = "Indefinido";
+		}
 
+		return $status;
+
+}
 //Admin name coneccted
 function admin_name_connected(){
 	include "config.php";
@@ -91,5 +127,19 @@ function admin_name_connected(){
 }
 
 //Estado del pago
+function estado_pago($estado){
 
+	if($estado==0){
+		$estado = "Sin Verificar";
+	}elseif($estado==1){
+		$estado = "Verificado y Aprobado";
+	}elseif($estado==2){
+		$estado = "Reembolsado";
+	}else{
+		$estado = "Sin Verificar";
+	}
+
+	return $estado;
+
+}
 ?>
