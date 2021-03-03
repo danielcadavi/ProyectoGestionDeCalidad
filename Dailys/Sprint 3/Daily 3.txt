@@ -1,0 +1,8 @@
+Daily 3 - Sprint #3
+
+- ¿ Que se ha hecho ?
+Se desarrollaron todas las funcionalidades la sección de modificar los productos, también de mostrar los productos y creación de las ofertas que se ven reflejado en la zona del cliente
+- ¿ Que problemas tuvimos ?
+Hasta el momento hemos tenido problemas con funcionalidad de la pagina en general, que esperamos resolver esta semana durante el transcurso del sprint
+- ¿ Que haremos para el siguiente daily del sprint 3?
+Se espera dejar lista la tarea de agregar el local y resolver bugs que hemos tenido
