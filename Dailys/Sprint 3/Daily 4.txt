@@ -1,0 +1,8 @@
+Daily 4 - Sprint #3
+
+¿ Que se ha hecho ?
+Se dejo lista el aparatado del admin donde se agregan los productos y se resolvieron los bugs que teníamos en el menú principal
+¿ Que problemas tuvimos ?
+Hasta el momento no hemos tenido problemas en las funcionalidades
+¿ Que haremos para el siguiente daily del sprint 4?
+Se iniciaran las actividades del sprint 4

@@ -1,0 +1,6 @@
+De acuerdo a lo pactado con el equipo y el PO, se desarrollo la reunión de finalización de sprint, las cuales nos deja las siguientes conclusiones:
+
+- Se asignaron las tareas respectivas y de acuerdo con las habilidades y roles de los integrantes del equipo
+- Logramos superar los errores que teníamos en programación
+- Se finalizaron de manera exitosa la creación de las ofertas, mostrar locales, agregar locales y modificar los productos.
+- Se adelanto una actividad del siguiente sprint que es la de cerrar sesión

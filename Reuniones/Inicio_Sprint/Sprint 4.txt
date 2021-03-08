@@ -1,0 +1,8 @@
+Durante el transcurso de la reunión se acordó que para este sprint se incluirán tareas de programación de la pagina web
+Estas son las tareas pactadas según los roles y desempeño de los integrantes del equipo
+
+La siguientes tareas tienen implícitamente manejo de consultas en BD
+
+- Se iniciará a crear el carrito de compras, las cuales contempla actividades como ver el carrito, programar la adición de los productos al carrito, y el diseño del carrito de compras
+- Botón de salir sesión
+- Sección donde se verá el historial de compras del cliente
