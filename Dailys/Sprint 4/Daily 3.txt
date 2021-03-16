@@ -1,0 +1,8 @@
+Daily 3 - Sprint # 4
+
+-¿ Que se ha hecho ?
+Se empezó con el desarrollo de la creación del carrito de compras
+-¿ Que problemas tuvimos ?
+Hasta el momento no hemos tenido problemas en las funcionalidades de la pagina web
+-¿ Que haremos para el siguiente daily del sprint 4?
+Se espera espera dejar listo el carrito de compras al igual que del lado del cliente se pueda observar el carrito al momento de comprar

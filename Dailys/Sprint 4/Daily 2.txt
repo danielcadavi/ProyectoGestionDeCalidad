@@ -1,0 +1,8 @@
+Daily 2 - Sprint # 4
+
+-¿ Que se ha hecho ?
+Se dejo lista el aparatado de mis compras en el lado del cliente
+-¿ Que problemas tuvimos ?
+Hasta el momento no hemos tenido problemas en las funcionalidades
+-¿ Que haremos para el siguiente daily del sprint 4?
+Se espera comenzar a desarrollar la creación del carrito de compras
