@@ -1,0 +1,9 @@
+Daily 4 - Sprint # 4
+
+- ¿ Que se ha hecho ?
+Se termino el carrito de compras al igual que en el lado del cliente se implemento la sección que permite al cliente ver su compra
+- ¿ Que problemas tuvimos ?
+Hasta el momento no hemos tenido problemas en las funcionalidades de la pagina web
+- ¿ Que haremos para el siguiente daily del sprint 5?
+Se espera espera comenzar del lado del admin con la sección en la que se maneja el Tracking, el status
+y la visualización de los pago del lado del admin y visualización de las compras
