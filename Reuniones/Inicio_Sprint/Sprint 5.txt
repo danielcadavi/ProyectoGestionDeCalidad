@@ -1,0 +1,6 @@
+Durante el transcurso de la reunión se acordó que para este sprint se incluirán tareas de programación de la pagina web
+Estas son las tareas pactadas según los roles y desempeño de los integrantes del equipo
+
+La siguientes tareas tienen implícitamente manejo de consultas en BD
+
+- Se iniciará a desarrollar las secciones de pagar la compra, gestión de los pagos desde el administrador, manejar el estatus de las compras al igual que ver las compras todo esto desde el administrador

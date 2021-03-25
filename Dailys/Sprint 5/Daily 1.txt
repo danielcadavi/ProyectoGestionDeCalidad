@@ -1,0 +1,8 @@
+Daily 1 - Sprint # 5
+
+- ¿ Que se ha hecho ?
+Se termino la sección del cliente en la cual puede realizar la compra del producto
+- ¿ Que problemas tuvimos ?
+Hasta el momento no hemos tenido problemas en las funcionalidades de la pagina web
+- ¿ Que haremos para el siguiente daily del sprint 5?
+Se espera comenzar la sección de pagos desde el admin 
