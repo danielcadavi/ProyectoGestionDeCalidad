@@ -1,0 +1,3 @@
+Durante el transcurso de la reunión se acordó que para este sprint se incluirán tareas de programación de la pagina web y debido a que ya se tiene un producto funcional a partir de este sprint, se enfocaran las tareas hacia la solución de bugs que tenga la pagina web en su funcionamiento:
+
+- Se desarrollará la ultima sección de la aplicación que tiene que ver con manejar el tracking desde el Admin, una vez culminada esta tarea, se dará inicio a la búsqueda de bugs mediante el testeo de la pagina web

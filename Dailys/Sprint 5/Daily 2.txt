@@ -1,0 +1,8 @@
+Daily 2 - Sprint # 5
+
+¿ Que se ha hecho ?
+Se terminaron todos las tareas como parte de priorización de los dailys, debido a la semana santa
+¿ Que problemas tuvimos ?
+Hasta el momento no hemos tenido problemas en las funcionalidades de la pagina web
+¿ Que haremos para el siguiente daily del sprint 6?
+Se espera comenzar a detectar errores en las funcionalidades de la pagina web

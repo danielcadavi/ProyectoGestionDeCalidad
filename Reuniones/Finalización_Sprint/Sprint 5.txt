@@ -1,0 +1,5 @@
+De acuerdo a lo pactado con el equipo y el PO, se desarrollo la reunión de finalización de sprint, las cuales nos deja las siguientes conclusiones:
+
+- Se asignaron las tareas respectivas y de acuerdo con las habilidades y roles de los integrantes del equipo
+- Durante este sprint no hubieron errores durante el proceso de desarrollo
+- Se finalizaron de manera exitosa el pago de la compra, pagos - Admin, manejar el status de las compras, y ver las compras desde el admin
