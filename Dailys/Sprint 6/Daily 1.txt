@@ -1,0 +1,8 @@
+Daily 1 - Sprint # 6
+
+- ¿ Que se ha hecho ?
+Se terminaron todos las tareas de desarrollo del producto
+- ¿ Que problemas tuvimos ?
+Han aparecido bugs en algunos de las secciones del admin, específicamente, al agregar un local, agregar producto, y cambiar estados de pedidos
+- ¿ Que haremos para el siguiente daily del sprint 6?
+Se espera empezar a solucionar los bugs que han surgido en los apartados del admin
