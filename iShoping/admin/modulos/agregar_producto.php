@@ -19,8 +19,8 @@ if(isset($enviar)){
 		move_uploaded_file($_FILES['descargable']['tmp_name'], "../descargable/".$descargable);
 	}
 
-	$mysqli->query("INSERT INTO productos (name,price,imagen,oferta,descargable) VALUES ('$name','$price','$imagen','ferta','$descargable')");
-	alert("Producto agregado");
+	$mysqli->query("INSERT INTO productos (name,price,imagen,id_categoria,oferta,descargable) VALUES ('$name','$price','$imagen','$categoria','$oferta','$descargable')");
+	//alert("Producto agregado");
 	redir("?p=agregar_producto");
 }
 
