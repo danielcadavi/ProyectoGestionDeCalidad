@@ -1,0 +1,8 @@
+Daily 3 - Sprint # 6
+
+- ¿ Que se ha hecho ?
+Se corrigió el bug que aparecía al agregar un nuevo local
+- ¿ Que problemas tuvimos ?
+Han aparecido bugs en otras secciones del admin, específicamente al gestionar pedidos y pagos
+- ¿ Que haremos para el siguiente daily del sprint 6?
+Se espera solucionar los bugs que han surgido en el apartado del admin, específicamente al aprobar los nuevos pagos

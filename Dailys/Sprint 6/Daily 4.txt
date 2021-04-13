@@ -1,0 +1,8 @@
+Daily 4 - Sprint # 6
+
+- ¿ Que se ha hecho ?
+Se corrigió el bug que aparecía al confirmar los pagos
+- ¿ Que problemas tuvimos ?
+Falta por solucionar el bugs en la sección del admin, específicamente al gestionar pedidos 
+- ¿ Que haremos para el siguiente daily del sprint 6?
+Se espera solucionar el bug en la sección del admin al gestionar los pedidos
