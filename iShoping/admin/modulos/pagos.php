@@ -5,8 +5,8 @@ if(isset($aceptar)){
 	$mysqli->query("UPDATE pagos SET estado = 1 WHERE id = '$aceptar'");
 	$id_compra = clear($id_compra);
 	$mysqli->query("UPDATE compra SET estado = 1 WHERE id = '$id_compra'");
-	alert("Pago verificado.");
-	redir("?p=ver_compra&id=".$id_compra);
+	//alert("Pago verificado.");
+	//redir("?p=ver_compra&id=".$id_compra);
 }
 
 //Estados:
@@ -38,6 +38,7 @@ if(isset($aceptar)){
 			<td><?=$r['nombre']?></td>
 			<td><?=estado_pago($r['estado'])?></td>
 			<td>
+				
 				<?php
 				if($r['estado']==0){
 					?>
