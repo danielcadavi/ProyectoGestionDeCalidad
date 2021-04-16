@@ -7,11 +7,11 @@ if(isset($enviar)){
 	$s = $mysqli->query("SELECT * FROM categorias WHERE categoria = '$categoria'");
 
 	if(mysqli_num_rows($s)>0){
-		alert("Ya esta categoria esta agregada a la base de datos");
+	//	alert("Ya esta categoria esta agregada a la base de datos");
 		redir("");
 	}else{
 		$mysqli->query("INSERT INTO categorias (categoria) VALUES ('$categoria')");
-		alert("Categoria Agregada");
+		//alert("Categoria Agregada");
 		redir("");
 	}
 }
@@ -19,7 +19,7 @@ if(isset($enviar)){
 if(isset($eliminar)){
 	$eliminar = clear($eliminar);
 	$mysqli->query("DELETE FROM categorias WHERE id = '$eliminar'");
-	alert("Categoria eliminada");
+	//alert("Categoria eliminada");
 	redir("?p=agregar_categoria");
 }
 
