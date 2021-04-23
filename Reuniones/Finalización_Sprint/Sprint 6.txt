@@ -1,0 +1,5 @@
+De acuerdo a lo pactado con el equipo y el PO, se desarrollo la reunión de finalización de sprint, las cuales nos deja las siguientes conclusiones:
+
+- Se asignaron las tareas respectivas y de acuerdo con las habilidades y roles de los integrantes del equipo
+- Durante este sprint nos basamos en la solución de bugs
+- Se finalizaron de manera exitosa la solución de bugs en el Admin.

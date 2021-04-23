@@ -1,0 +1,5 @@
+Durante el transcurso de la reunión se acordó que para este sprint se incluirán tareas de programación de la pagina web y debido a que ya se tiene un producto funcional a partir de este sprint, se enfocaran las tareas hacia la solución de bugs que tenga la pagina web en su funcionamiento al igual que ultimar diseño e implementación de servidor:
+
+- Solucionar los últimos bugs
+- Ultimar destalles de diseño
+- Se desarrollará el servidor de la pagina web
