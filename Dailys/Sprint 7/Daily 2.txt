@@ -1,0 +1,8 @@
+Daily 2 - Sprint # 7
+
+- ¿ Que se ha hecho ?
+Se han agregado todos los recursos al aplicativo
+- ¿ Que problemas tuvimos ?
+Ninguno
+- ¿ Que haremos para el siguiente daily del sprint 7?
+Ya solo falta realizar la consulta sobre el servidor y su implementación
