@@ -6,7 +6,7 @@ check_admin();
 // 2 en camino
 // 3 despachado
 
-$s = $mysqli->query("SELECT * FROM compra WHERE estado != 3");
+$s = $mysqli->query("SELECT * FROM compra WHERE estado != 4");
 
 if(isset($eliminar)){
 	$eliminar = clear($eliminar);
