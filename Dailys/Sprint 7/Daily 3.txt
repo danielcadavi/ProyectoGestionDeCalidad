@@ -1,0 +1,8 @@
+Daily 3 - Sprint # 7
+
+- ¿ Que se ha hecho ?
+Se han corregido bugs y se ha hecho la consulta del servidor
+- ¿ Que problemas tuvimos ?
+Ninguno
+- ¿ Que haremos para el siguiente daily del sprint 7?
+Ya solo falta implementar el servidor web

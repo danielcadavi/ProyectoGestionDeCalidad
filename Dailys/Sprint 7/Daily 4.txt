@@ -1,0 +1,8 @@
+Daily 4 - Sprint # 7
+
+- ¿ Que se ha hecho ?
+Se ha implementado el servidor web funcional
+- ¿ Que problemas tuvimos ?
+Ninguno
+- ¿ Que haremos para el siguiente daily del sprint 7?
+Ya se han finalizado todas las tareas y se da por finalizado el proceso de desarrollo
