@@ -13,7 +13,8 @@ if(isset($logear)){
     $_SESSION['id'] = $r['id'];
     redir("./");
   }else{
-    alert("Los datos no son validos");
+  	//alert("Los datos no son validos",0,'login');
+    //alert("Los datos no son validos");
     redir("./");
   }
 
