@@ -15,7 +15,11 @@ if(isset($enviar)){
 		alert("Campos vacíos o el usuario ya está en uso",0,'registro');
 		die();
 	}	
-	if($password == 0){
+	if(is_null($username)){
+		alert("Campo vacío en el usuario",0,'registro');
+		die();
+	}
+	if(is_null($password)){
 		alert("Campo vacío en la contraseña",0,'registro');
 		die();
 	}
