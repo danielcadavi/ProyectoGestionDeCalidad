@@ -14,13 +14,18 @@ if(isset($enviar)){
 	if(mysqli_num_rows($q)>0){
 		alert("Campos vacíos o el usuario ya está en uso",0,'registro');
 		die();
-	}
-
-	if($password != $cpassword){
-		alert("Las contraseñas no coinciden",0,'registro');
+	}	
+	if($password == 0){
+		alert("Campo vacío en la contraseña",0,'registro');
 		die();
 	}
-
+	if($password != $cpassword){
+		alert("Las contraseñas no coinciden",0,'registro');
+		echo("falla");
+		die();
+		
+	}
+	
 	$mysqli->query("INSERT INTO clientes (username,password,name) VALUES ('$username','$password','$nombre')");
 
 	$q2 = $mysqli->query("SELECT * FROM clientes WHERE username = '$username'");

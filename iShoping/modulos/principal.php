@@ -72,7 +72,7 @@
 
 	.img_producto{
 		text-align: center;
-		width:320px;
+		width:210px;
 		height:322px;
 	}
 
