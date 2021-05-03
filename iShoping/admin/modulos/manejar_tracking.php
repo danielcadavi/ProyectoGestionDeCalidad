@@ -58,7 +58,7 @@ if(isset($eliminar)){
 		<tr>
 			<td><?=$cliente?></td>
 			<td><?=$fecha?></td>
-			<td><?=$r['monto']?> <?=$divisa?></td>
+			<td><?=number_format($r['monto'])?> <?=$divisa?></td>
 			<td><?=$status?></td>
 			<td>
 				<a  style="color:#08f" href="?p=manejar_tracking&eliminar=<?=$r['id']?>">

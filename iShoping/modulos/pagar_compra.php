@@ -25,15 +25,13 @@ if(isset($subir)){
 <tr>
 	<th>Tipo de pago</th>
 	<th>Cuenta</th>
-	<th>Beneficiario</th>
-	<th>Acciones</th>
+	<th>Vendedor</th>
 </tr>
 
 <tr>
 	<td>Transferencia Bancaria</td>
 	<td>3015-805-301</td>
 	<td>Daniel Cadavid</td>
-	<th><a target="_blank" href="https://google.com"> Ir al pago </a></th>
 </tr>
 </table>
 

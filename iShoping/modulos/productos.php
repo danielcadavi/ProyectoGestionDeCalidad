@@ -79,9 +79,9 @@ while($r=mysqli_fetch_array($q)){
 					$desc = "0.".$r['oferta'];
 				}
 
-				$preciototal = $r['price'] -($r['price'] * $desc);
+				$preciototal = number_format($r['price'] -($r['price'] * $desc));
 			}else{
-				$preciototal = $r['price'];
+				$preciototal = number_format($r['price']);
 			}
 	?>
 		<div class="producto">
@@ -90,11 +90,11 @@ while($r=mysqli_fetch_array($q)){
 			<?php
 			if($r['oferta']>0){
 				?>
-				<del><?=$r['price']?> <?=$divisa?></del> <span class="precio"> <?=$preciototal?> <?=$divisa?> </span>
+				<del><?=number_format($r['price'])?> <?=$divisa?></del> <span class="precio"> <?=$preciototal?> <?=$divisa?> </span>
 				<?php
 			}else{
 				?>
-				<span class="precio"><br><?=$r['price']?> <?=$divisa?></span>
+				<span class="precio"><br><?=number_format($r['price'])?> <?=$divisa?></span>
 				<?php
 			}
 			?>

@@ -18,8 +18,8 @@ $nombre = $rc['name'];
 <h1>Viendo compra #<span style="color:#08f"><?=$r['id']?></span></h1><br>
 
 Fecha: <?=fecha($r['fecha'])?><br>
-Monto: <?=number_format($r['monto'])?> <?=$divisa?><br>
 Estado: <?=estado($r['estado'])?><br>
+VALOR A PAGAR: <?=number_format($r['monto'])?> <?=$divisa?><br>
 <br>
 <table class="table table-striped">
 	<tr>
@@ -27,7 +27,7 @@ Estado: <?=estado($r['estado'])?><br>
 		<th>Cantidad</th>
 		<th>Monto</th>
 		<th>Monto Total</th>
-		<th>Acciones</th>
+		
 	</tr>
 	<?php
 		$sp = $mysqli->query("SELECT * FROM productos_compra WHERE id_compra = '$id'");
@@ -43,8 +43,8 @@ Estado: <?=estado($r['estado'])?><br>
 				<tr>
 					<td><?=$nombre_producto?></td>
 					<td><?=$rp['cantidad']?></td>
-					<td><?=$rp['monto']?></td>
-					<td><?=$montototal?></td>
+					<td><?=number_format($rp['monto'])?></td>
+					<td><?=number_format($montototal)?></td>
 					<td>
 						<?php
 						if($rpro['descargable']!=""){
@@ -52,7 +52,7 @@ Estado: <?=estado($r['estado'])?><br>
 							<a href="descargable/<?=$rpro['descargable']?>" download><i class="fa fa-download"></i></a>
 							<?php
 						}else{
-							echo "--";
+							//echo "--";
 						}
 						?>
 					</td>

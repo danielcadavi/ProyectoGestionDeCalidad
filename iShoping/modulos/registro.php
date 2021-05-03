@@ -12,7 +12,7 @@ if(isset($enviar)){
 	$q = $mysqli->query("SELECT * FROM clientes WHERE username = '$username'");
 
 	if(mysqli_num_rows($q)>0){
-		alert("El usuario ya está en uso",0,'registro');
+		alert("Campos vacíos o el usuario ya está en uso",0,'registro');
 		die();
 	}
 
@@ -21,10 +21,7 @@ if(isset($enviar)){
 		die();
 	}
 
-
-
 	$mysqli->query("INSERT INTO clientes (username,password,name) VALUES ('$username','$password','$nombre')");
-
 
 	$q2 = $mysqli->query("SELECT * FROM clientes WHERE username = '$username'");
 

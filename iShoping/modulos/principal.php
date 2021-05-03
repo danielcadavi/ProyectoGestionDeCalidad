@@ -147,10 +147,11 @@ while($r=mysqli_fetch_array($q)){
 				}else{
 					$desc = "0.".$r['oferta'];
 				}
-
-				$preciototal = $r['price'] -($r['price'] * $desc);
+				//=number_format($r['monto']) =$divisa
+				$preciototal = number_format($r['price'] -($r['price'] * $desc));
+				//$preciototal = $r['price'] -($r['price'] * $desc);
 			}else{
-				$preciototal = $r['price'];
+				$preciototal = number_format($r['price']);
 			}
 	?>
 		<div class="producto">
@@ -159,11 +160,11 @@ while($r=mysqli_fetch_array($q)){
 			<?php
 			if($r['oferta']>0){
 				?>
-				<del><?=$r['price']?> <?=$divisa?></del> <span class="precio"> <?=$preciototal?> <?=$divisa?> </span>
+				<del><?=number_format($r['price'])?> <?=$divisa?></del> <span class="precio"> <?=$preciototal?> <?=$divisa?> </span>
 				<?php
 			}else{
 				?>
-				<span class="precio"><br><?=$r['price']?> <?=$divisa?></span>
+				<span class="precio"><br><?=number_format($r['price'])?> <?=$divisa?></span>
 				<?php
 			}
 			?>
@@ -189,16 +190,16 @@ while($r=mysqli_fetch_array($q)){
 					$desc = "0.".$r['oferta'];
 				}
 
-				$preciototal = $r['price'] -($r['price'] * $desc);
+				$preciototal = number_format($r['price'] -($r['price'] * $desc));
 			}else{
-				$preciototal = $r['price'];
+				$preciototal = number_format($r['price']);
 			}
 
 	?>
 		<div class="producto">
 			<div class="name_producto"><?=$r['name']?></div>
 			<div><img class="img_producto" src="productos/<?=$r['imagen']?>"/></div><br>
-			<del><?=$r['price']?> <?=$divisa?></del> <span class="precio"> <?=$preciototal?> <?=$divisa?> </span>
+			<del><?=number_format($r['price'])?> <?=$divisa?></del> <span class="precio"> <?=$preciototal?> <?=$divisa?> </span>
 			
 			<button class="btn btn-warning pull-right" onclick="agregar_carro('<?=$r['id']?>');" style="border-radius:0px 4px 4px 0px"><i class="fa fa-shopping-cart"></i></button>
 			&nbsp; &nbsp;

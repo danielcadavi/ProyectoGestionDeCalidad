@@ -17,13 +17,13 @@ if(isset($id) && isset($modificar)){
 	alert("Cantidad modificada",1,'carrito');
 	//redir("?p=carrito");
 
-
 }
 
 if(isset($finalizar)){
 
 	$monto = clear($monto_total);
 
+	if($monto_total > 0){
 	$id_cliente = clear($_SESSION['id_cliente']);
 	$q = $mysqli->query("INSERT INTO compra (id_cliente,fecha,monto,estado) VALUES ('$id_cliente',NOW(),'$monto',0)");
 
@@ -32,8 +32,8 @@ if(isset($finalizar)){
 
 	$ultima_compra = $rc['id'];
 
-
-	$q2 = $mysqli->query("SELECT * FROM carro WHERE id_cliente = '$id_cliente'");
+		
+		$q2 = $mysqli->query("SELECT * FROM carro WHERE id_cliente = '$id_cliente'");
 	while($r2=mysqli_fetch_array($q2)){
 
 		$sp = $mysqli->query("SELECT * FROM productos WHERE id = '".$r2['id_producto']."'");
@@ -55,6 +55,12 @@ if(isset($finalizar)){
 	alert("Se ha finalizado la compra",1,'ver_compra&id='.$id_compra);
 	//redir("?p=ver_compra&id=".$id_compra);
 
+
+	}else{
+		alert("No hay productos en el carrito",0,'principal');
+		//redir("?p=principal");
+	}
+	
 }
 ?>
 
@@ -70,7 +76,7 @@ if(isset($finalizar)){
 		<th>Oferta</th>
 		<th>Precio Total</th>
 		<th>Precio Neto</th>
-		<th>Action</th>
+		<th>Acción</th>
 	</tr>
 <?php
 $id_cliente = clear($_SESSION['id_cliente']);
@@ -100,17 +106,16 @@ while($r = mysqli_fetch_array($q)){
 	$precio_unidad = $r2['price'];
 	$precio_total = $cantidad * $preciototal;
 	$imagen_producto = $r2['imagen'];
+	
 
 	$monto_total = $monto_total + $precio_total;
-
-	
 
 	?>
 		<tr>
 			<td><img src="productos/<?=$imagen_producto?>" class="imagen_carro"/></td>
 			<td><?=$nombre_producto?></td>
 			<td><?=$cantidad?></td>
-			<td><?=$precio_unidad?> <?=$divisa?></td>
+			<td><?=number_format($precio_unidad)?> <?=$divisa?></td>
 			<td>
 				<?php
 					if($r2['oferta']>0){
@@ -120,8 +125,8 @@ while($r = mysqli_fetch_array($q)){
 					}
 				?>
 			</td>
-			<td><?=$preciototal?> <?=$divisa?></td>
-			<td><?=$precio_total?> <?=$divisa?></td>
+			<td><?=number_format($preciototal)?> <?=$divisa?></td>
+			<td><?=number_format($precio_total)?> <?=$divisa?></td>
 			<td>
 				<a onclick="modificar('<?=$r['id']?>')" href="#"><i class="fa fa-edit" title="Modificar cantidad en carrito"></i></a>
 				<a href="?p=carrito&eliminar=<?=$r['id']?>"><i class="fa fa-times" title="Eliminar"></i></a>
@@ -132,13 +137,14 @@ while($r = mysqli_fetch_array($q)){
 ?>
 </table>
 <br>
-<h2>Monto Total: <b class="text-green"><?=$monto_total?> <?=$divisa?></b></h2>
+<h2>Monto Total: <b class="text-green"><?=number_format($monto_total)?> <?=$divisa?></b></h2>
 
 <br><br>
-<form method="post" action="">
+	<form method="post" action="">
 	<input type="hidden" name="monto_total" value="<?=$monto_total?>"/>
 	<button class="btn btn-primary" type="submit" name="finalizar"><i class="fa fa-check"></i> Finalizar Compra</button>
 </form>
+
 
 <script type="text/javascript">
 		
